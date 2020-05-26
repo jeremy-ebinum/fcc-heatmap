@@ -13,31 +13,23 @@
   font-size: 1.3rem;
 }
 
-// .c-d3 {
-//   background-color: #eee;
-//   margin-bottom: 2rem;
-// }
+.y-label,
+.x-label {
+  font-weight: 700;
+}
 
-// .tick {
-//   font-weight: 700;
-// }
+.tick {
+  font-size: 0.9rem;
+}
 
-// .dot {
-//   stroke: black;
-//   opacity: 0.75;
-// }
-
-// .legend-text {
-//   font-size: 0.9em;
-// }
-
-// #tooltip {
-//   position: absolute;
-//   text-align: left;
-//   font-size: 0.75em;
-//   font-weight: 400;
-//   padding: 0.4rem 0.8rem;
-//   border-radius: 4px;
-//   background-color: hsl(0, 25%, 25%);
-//   color: #fff;
-// }
+#tooltip {
+  position: absolute;
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  pointer-events: none;
+}
