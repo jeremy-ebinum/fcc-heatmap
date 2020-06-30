@@ -1,5 +1,5 @@
 {
-  "name": "fcc-scatterplot-graph",
+  "name": "fcc-heatmap",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
